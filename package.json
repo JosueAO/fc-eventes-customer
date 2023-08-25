@@ -1,12 +1,17 @@
 {
-  "name": "fc",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
-}
+    "name": "FC-DDD-Event-Customer",
+    "version": "1.0.0",
+    "description": "Exemplo de projeto com Eventos de Domínio",
+    "main": "dist/index.js",
+    "scripts": {
+      "start": "tsc && node dist/index.js",
+      "watch": "tsc --watch",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "typescript": "^4.3.5"
+    }
+  }
+  
